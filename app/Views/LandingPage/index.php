@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <title><?= $title; ?>
-</title> 
+    </title>
 
 
     <!-- Bootstrap core CSS -->
@@ -26,7 +26,7 @@
 
     <!-- Custom styles for this template -->
     <link href="<?= base_url('assets/landingpage/css/style.css'); ?>" rel="stylesheet">
-    
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="71">
@@ -39,14 +39,13 @@
                 <!-- <img src="images/logo-light.png" class="logo-dark" alt="" height="28"> -->
             </a>
 
-            <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
+            <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
                 <i class="mdi mdi-menu"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mx-auto navbar-center">
-                    <?php foreach ($nav_items as $item): ?>
+                    <?php foreach ($nav_items as $item) : ?>
                         <li class="nav-item">
                             <a href="<?= $item['href'] ?>" class="nav-link"><?= $item['name'] ?></a>
                         </li>
@@ -76,7 +75,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <h2 class="title mt-5 mt-lg-0">
-                        PT Humanage Solutions
+                            PT Humanage Solutions
                         </h2>
                         <p class="f-16 my-4 text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Numquam soluta eius illo, recusandae tenetur saepe, eaque voluptate.</p>
@@ -156,14 +155,14 @@
             <div class="row justify-content-center mb-4 pb-2">
                 <div class="col-lg-12">
                     <div class="heading text-center">
-                    <h2 class="title mt-5 mt-lg-0">
-                        PT Humanage Solutions
+                        <h2 class="title mt-5 mt-lg-0">
+                            PT Humanage Solutions
                         </h2>
                         <h2 class="mb-3"><span class="text-primary fw-normal">"Find Your Event Match"</span>
                         </h2>
-                        <p class="text-muted para-p mx-auto mb-0">Merupakan perusahaan yang resmi berdiri pada tahun 2023. 
+                        <p class="text-muted para-p mx-auto mb-0">Merupakan perusahaan yang resmi berdiri pada tahun 2023.
                             di Indonesia yang sudah tersertifikasi dan sesuai dengan kebutuhan pasar.
-                            Menyediakan wadah berbasis teknologi web aplikasi bernama Talent Event, PT Humanage Solutions memiliki 
+                            Menyediakan wadah berbasis teknologi web aplikasi bernama Talent Event, PT Humanage Solutions memiliki
                             tujuan untuk menjadi penghubung antara PCE/PEO dan Event Outsource</p>
                     </div>
                 </div>
@@ -175,11 +174,10 @@
                             <img src="<?= base_url('assets/landingpage/images/service/img-1.png'); ?>" alt="img-fluid">
                         </div>
                         <h5 class="fw-bold mt-4 mb-3">VISI</h5>
-                        <p>Learners are given the right to arrange and customize their study schedule and timetable
-                            based on preferences.</p>
+                        <p>“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
+                            dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan MICE di Indonesia.”</p>
                         <div class="button-link mt-2">
-                            <a href="" class="f-14 fw-bold">Start hear <i
-                                    class="mdi mdi-arrow-right align-middle"></i></a>
+                            <a href="" class="f-14 fw-bold">Start hear <i class="mdi mdi-arrow-right align-middle"></i></a>
                         </div>
                     </div>
                 </div>
@@ -189,11 +187,12 @@
                             <img src="<?= base_url('assets/landingpage/images/service/img-2.png'); ?>" alt="img-fluid">
                         </div>
                         <h5 class="fw-bold mt-4 mb-3">MISI</h5>
-                        <p>Learners are given the right to arrange and customize their study schedule and timetable
-                            based on preferences.</p>
+                        <li>Menyediakan tenaga outsourcing profesional yang berkualitas dan terlatih untuk memenuhi kebutuhan pelanggan dalam kegiatan MICE.</li>
+                        <li>Membangun kerjasama yang erat dengan pelanggan, vendor, dan mitra strategis untuk meningkatkan kinerja perusahaan dan memperluas jaringan bisnis.</li>
+                        <li>Memberikan pelayanan yang prima dan berorientasi pada kepuasan pelanggan, dengan mengutamakan profesionalitas dan kualitas kerja.</li>
+
                         <div class="button-link mt-2">
-                            <a href="" class="f-14 fw-bold">Get Free Quote <i
-                                    class="mdi mdi-arrow-right align-middle"></i></a>
+                            <a href="" class="f-14 fw-bold">Get Free Quote <i class="mdi mdi-arrow-right align-middle"></i></a>
                         </div>
                     </div>
                 </div>
@@ -203,11 +202,13 @@
                             <img src="<?= base_url('assets/landingpage/images/service/img-3.png'); ?>" alt="img-fluid">
                         </div>
                         <h5 class="fw-bold mt-4 mb-3">WHY CHOOSE US?</h5>
-                        <p>Learners are given the right to arrange and customize their study schedule and timetable
-                            based on preferences.</p>
+                        <p>Menampilkan user interface yang simple dan bersih, efisiensi menjadi fokus utama Talent Event.
+                            Web aplikasi Talent Event dapat diakses oleh pengguna gawai seperti smartphone, personal computer dan laptop secara
+                            fleksibel. Event Planner dan Event Outsource dapat mendaftarkan diri serta mengontrol profil mereka melalui
+                            masing-masing tombol yang disediakan secara khusus.
+                            Selain itu, mereka dapat mengakses informasi terkini seputar industri event Indonesia.</p>
                         <div class="button-link mt-2">
-                            <a href="" class=" f-14 fw-bold">Start hear <i
-                                    class="mdi mdi-arrow-right align-middle"></i></a>
+                            <a href="" class=" f-14 fw-bold">Start hear <i class="mdi mdi-arrow-right align-middle"></i></a>
                         </div>
                     </div>
                 </div>
@@ -242,16 +243,15 @@
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0">
-                    <h6 class="text-muted fw-normal">Your profit <span class="fw-bold">grows & enjoy</span></h6>
-                    <h1 class="fw-bold mt-2">Get Awesome <span class="text-primary fw-normal">Companionship</span></h1>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui, pariatur nulla,
-                        sint
-                        voluptatibus explicabo voluptates aliquid dolorem suscipit nostrum expedita itaque nesciunt
-                        autem ?</p>
-                    <div class="get-link mt-4">
-                        <a href="" class="text-primary font-weight-600"> Download free feedback <i
-                                class="mdi mdi-arrow-right"></i></a>
-                    </div>
+                    <h1 class="fw-bold mt-2"><span class="text-primary fw-normal">EVENT OUTSOURCE</span></h1>
+                    <p class="mt-3">Talent Event siap menjamin kualitas dari setiap individu Event Outsource.
+                        Tim Talent Event telah melakukan penyaringan dan verifikasi secara menyeluruh terhadap setiap
+                        Event Outsource yang terdaftar. Talent Event menyediakan pilihan Event Outsource berdasarkan
+                        bidang pekerjaan dan pengalaman, setiap bidang pekerjaan terbagi menjadi dua kategori pengalaman
+                        Hal yang perlu menjadi perhatian adalah, meskipun terdapat dua kategori pengalaman yang berbeda,
+                        keprofesionalitasan yang dimiliki oleh Event Outsource tetap terjaga.
+                        yaitu Basic dan Experienced.
+                    </p>
 
                 </div>
             </div>
@@ -259,16 +259,78 @@
             <div class="features-2" id="part2">
                 <div class="row align-items-center">
                     <div class="col-lg-4 order-2 order-lg-1 mt-5 mt-lg-0">
-                        <h6 class="text-muted fw-normal">Get started <span class="fw-bold">available courses</span></h6>
-                        <h1 class="fw-bold mt-2">your success <span class="text-primary fw-normal">plan now!</span>
+                        <h1 class="fw-bold mt-2"><span class="text-primary fw-normal">OUR PROFESSIONAL EVENT OUTSOURCE</span>
                         </h1>
-                        <p class="mt-3"> Temporibus quasi adipisci eligendi quaerat iste debitis numquam deleniti labore
-                            corporis
-                            architecto, voluptas cupiditate distinctio?</p>
-                        <div class="get-link mt-4">
-                            <a href="" class="text-primary font-weight-600"> Download free feedback <i
-                                    class="mdi mdi-arrow-right"></i></a>
+                        <!-- start 1 -->
+                        <div class="card mt-4">
+                            <a data-bs-toggle="collapse" href="#collapse1" class="faq collapsed">
+                                <div class="card-header p-4" id="heading1">
+                                    <h5 class="mb-0 text-dark">LO (Liaison officer)</h5>
+                                </div>
+                            </a>
+                            <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+                                <div class="card-body pt-1">
+                                    <p class="mb-0 text-muted">Vulputate lobortis tincidunt porttitor massa morbi
+                                        suscipit mollis luctus ullamcorper phasellus ante finibus facilisis
+                                        .</p>
+                                </div>
+                            </div>
                         </div>
+                        <!-- end 1 -->
+
+
+                        <!-- start 2 -->
+                        <div class="card mt-4">
+                            <a data-bs-toggle="collapse" href="#collapse2" class="faq collapsed">
+                                <div class="card-header p-4" id="heading2">
+                                    <h5 class="mb-0 text-dark">Registration</h5>
+                                </div>
+                            </a>
+                            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                                <div class="card-body pt-1">
+                                    <p class="mb-0 text-muted">Quisque tincidunt the malesuada aliquet ullamcorper
+                                        Suspendisse lectus congue iaculis vitae purus Nullam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end 2 -->
+
+                        <!-- start 3 -->
+
+                        <div class="card mt-4">
+                            <a data-bs-toggle="collapse" href="#collapse3" class="faq collapsed">
+                                <div class="card-header p-4" id="heading3">
+                                    <h5 class="mb-0 text-dark">Marketing Communication</h5>
+                                </div>
+                            </a>
+                            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                <div class="card-body pt-1">
+                                    <p class="mb-0 text-muted">Pellentesque tincidunt imperdiet metus interdum
+                                        ligula tristique aenean facilisis congue congue libero interdum venenatis
+                                        scelerisque sed massa elit pulvinar gravida.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end 3 -->
+
+                        <!-- start 4 -->
+                        <div class="card mt-4">
+                            <a data-bs-toggle="collapse" href="#collapse4" class="faq collapsed" aria-expanded="false" aria-controls="collapse4">
+                                <div class="card-header p-4" id="heading4">
+                                    <h5 class="mb-0 text-dark">Standbuilding</h5>
+                                </div>
+                            </a>
+                            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                <div class="card-body pt-1">
+                                    <p class="mb-0 text-muted">Vestibulum sodales turpis vestibulum praesent
+                                        consectetur magna tortor interdum neque. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end 4 -->
+                        <!-- <div class="get-link mt-4">
+                            <a href="" class="text-primary font-weight-600"> Download free feedback <i class="mdi mdi-arrow-right"></i></a>
+                        </div> -->
 
                     </div>
                     <div class="col-lg-7 offset-lg-1 order-1 order-lg-2">
@@ -292,8 +354,7 @@
         </div>
 
 
-        <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1"
-            aria-hidden="true">
+        <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
                 <div class="modal-content hero-modal-0 bg-transparent">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -307,8 +368,43 @@
     </section>
     <!-- end features -->
 
+    <!-- start faq  -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box text-center">
+                        <h6 class="text-muted fw-normal">quickly find the help you need</h6>
+                        <h2 class="mb-3">Our <span class="text-primary fw-normal">Frequently Ask Question</span> <br>
+                            support center </h2>
+                        <p class="text-muted para-p mx-auto mb-0">consectetur adipisicing elit. Eius, praesentium,
+                            dignissimos placeat ad fugiat illum iusto dolorum nobis fuga, ut nemo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <div class="accordion mt-5" id="accordionExample">
+                        <div class="faq-collaps faq-collaps-2">
 
-    <!-- start cta -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="<?= base_url('assets/landingpage/images/faq/Questions.png'); ?>" alt="" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end faq -->
+
+   
+
+
+    <!-- start blog -->
+    <section class="section bg-light" id="blog">
+             <!-- start cta -->
     <section class="cta section" id="cta-ani">
         <div class="cta-image position-relative">
             <div class="container position-relative">
@@ -332,51 +428,81 @@
 
 
     <!-- counter section-->
-    <section class="counter ">
+    <section class="counter">
         <div class="container">
             <div class="row" id="counter">
-                <div class="col-lg-3 p-lg-0">
+                <div class="col-lg-2 p-lg-0">
                     <div class="counter-box py-0 py-lg-5 text-center position-relative">
                         <div class="side-border-left"></div>
                         <div class="py-5 pb-0">
                             <div class="counter-image">
                                 <img src="<?= base_url('assets/landingpage/images/counter/support.png'); ?>" alt="">
                             </div>
-                            <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1789">0</h2>
-                            <h5 class="counter-caption mb-0 mt-3">Awesome Support</h5>
+                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1789"></h2> -->
+                            <h5 class="counter-caption mb-0 mt-3">Instagram</h5>
+                            <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
                         </div>
                         <div class="side-border-right"></div>
                     </div>
                 </div>
                 <!-- end col -->
-                <div class="col-lg-3 p-lg-0">
+                <div class="col-lg-2 p-lg-0">
                     <div class="counter-box py-0 py-lg-5 text-center">
                         <div class="py-5 pb-0">
                             <img src="<?= base_url('assets/landingpage/images/counter/project-running.png'); ?>" alt="">
-                            <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="19">0</h2>
-                            <h5 class="counter-caption mb-0 mt-3">Project Running</h5>
+                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="19">0</h2> -->
+                            <h5 class="counter-caption mb-0 mt-3">Twitter</h5>
+                            <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
                         </div>
                         <div class="side-border-right"></div>
                     </div>
                 </div>
                 <!-- end col -->
-                <div class="col-lg-3 p-lg-0">
+                <div class="col-lg-2 p-lg-0">
                     <div class="counter-box py-0 py-lg-5 text-center side-border">
                         <div class="py-5 pb-0">
                             <img src="<?= base_url('assets/landingpage/images/counter/check.png'); ?>" alt="">
-                            <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="24">0</h2>
-                            <h5 class="counter-caption mb-0 mt-3">Project Complate</h5>
+                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="24">0</h2> -->
+                            <h5 class="counter-caption mb-0 mt-3">Tiktok</h5>
+                            <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
                         </div>
                     </div>
                 </div>
                 <!-- end col -->
-                <div class="col-lg-3 p-lg-0">
+                <div class="col-lg-2 p-lg-0">
                     <div class="counter-box py-0 py-lg-5 text-center side-border">
                         <div class="side-border-left"></div>
                         <div class="py-5">
                             <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
-                            <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2>
-                            <h5 class="counter-caption mb-0 mt-3">Strategy Solution</h5>
+                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
+                            <h5 class="counter-caption mb-0 mt-3">Youtube</h5>
+                            <h4 class="counter-caption mb-0 mt-3">Talent Event</h4>
+                        </div>
+                        <div class="side-border-right"></div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-2 p-lg-0">
+                    <div class="counter-box py-0 py-lg-5 text-center side-border">
+                        <div class="side-border-left"></div>
+                        <div class="py-5">
+                            <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
+                            <h5 class="counter-caption mb-0 mt-3">Phone</h5>
+                            <h4 class="counter-caption mb-0 mt-3">021-3456789</h4>
+                        </div>
+                        <div class="side-border-right"></div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-2 p-lg-0">
+                    <div class="counter-box py-0 py-lg-5 text-center side-border">
+                        <div class="side-border-left"></div>
+                        <div class="py-5">
+                            <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
+                            <h5 class="counter-caption mb-0 mt-3">Email</h5>
+                            <h4 class="counter-caption mt-3">info@talentevent.com</h4>
                         </div>
                         <div class="side-border-right"></div>
                     </div>
@@ -388,114 +514,7 @@
         <!-- end container -->
     </section>
     <!-- end counter -->
-
-    <!-- start faq  -->
-    <section class="section faq" id="faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-box text-center">
-                        <h6 class="text-muted fw-normal">quickly find the help you need</h6>
-                        <h2 class="mb-3">Our <span class="text-primary fw-normal">Frequently Ask Question</span> <br>
-                            support center </h2>
-                        <p class="text-muted para-p mx-auto mb-0">consectetur adipisicing elit. Eius, praesentium,
-                            dignissimos placeat ad fugiat illum iusto dolorum nobis fuga, ut nemo.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6">
-                    <div class="accordion mt-5" id="accordionExample">
-                        <div class="faq-collaps faq-collaps-2">
-                            <!-- start 1 -->
-                            <div class="card mt-4">
-                                <a data-bs-toggle="collapse" href="#collapse1" class="faq collapsed">
-                                    <div class="card-header p-4" id="heading1">
-                                        <h5 class="mb-0 text-dark">Pharetra convallis magna mattis?</h5>
-                                    </div>
-                                </a>
-                                <div id="collapse1" class="collapse show" aria-labelledby="heading1"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body pt-1">
-                                        <p class="mb-0 text-muted">Vulputate lobortis tincidunt porttitor massa morbi
-                                            suscipit mollis luctus ullamcorper phasellus ante finibus facilisis
-                                            .</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end 1 -->
-
-                            
-                            <!-- start 2 -->
-                            <div class="card mt-4">
-                                <a data-bs-toggle="collapse" href="#collapse2" class="faq collapsed">
-                                    <div class="card-header p-4" id="heading2">
-                                        <h5 class="mb-0 text-dark">Condimentum porttitor at magna?</h5>
-                                    </div>
-                                </a>
-                                <div id="collapse2" class="collapse" aria-labelledby="heading2"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body pt-1">
-                                        <p class="mb-0 text-muted">Quisque tincidunt the malesuada aliquet ullamcorper
-                                            Suspendisse lectus congue iaculis vitae purus Nullam.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end 2 -->
-
-                            <!-- start 3 -->
-
-                            <div class="card mt-4">
-                                <a data-bs-toggle="collapse" href="#collapse3" class="faq collapsed">
-                                    <div class="card-header p-4" id="heading3">
-                                        <h5 class="mb-0 text-dark">Nullya lectus feugiat placerat?</h5>
-                                    </div>
-                                </a>
-                                <div id="collapse3" class="collapse" aria-labelledby="heading3"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body pt-1">
-                                        <p class="mb-0 text-muted">Pellentesque tincidunt imperdiet metus interdum
-                                            ligula tristique aenean facilisis congue congue libero interdum venenatis
-                                            scelerisque sed massa elit pulvinar gravida.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end 3 -->
-
-                            <!-- start 4 -->
-                            <div class="card mt-4">
-                                <a data-bs-toggle="collapse" href="#collapse4" class="faq collapsed"
-                                    aria-expanded="false" aria-controls="collapse4">
-                                    <div class="card-header p-4" id="heading4">
-                                        <h5 class="mb-0 text-dark">Manage catch one your coupens?</h5>
-                                    </div>
-                                </a>
-                                <div id="collapse4" class="collapse" aria-labelledby="heading4"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body pt-1">
-                                        <p class="mb-0 text-muted">Vestibulum sodales turpis vestibulum praesent
-                                            consectetur magna tortor interdum neque. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end 4 -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="<?= base_url('assets/landingpage/images/faq/Questions.png'); ?>" alt="" class="img-fluid">
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- end faq -->
-
-
-    <!-- start blog -->
-    <section class="section bg-light" id="blog">
-        <div class="container">
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="text-center">
                         <h6 class="text-muted fw-normal">Latest on Our Blogs</h6>
@@ -505,9 +524,9 @@
                             vero debitis dolore, eaque natus, itaque perferendis eveniet voluptatem omnis nemo.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="row mt-5">
+            <!-- <div class="row mt-5">
                 <div class="col-lg-4 col-md-6 mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
                         <img src="<?= base_url('assets/landingpage/images/blog/img-1.jpg'); ?>" alt="" class="img-fluid w-100">
@@ -586,7 +605,9 @@
                         <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+
         </div>
     </section>
     <!-- end blog -->
@@ -651,10 +672,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="copy-right mb-5 text-center text-muted">
-                        <script>document.write(new Date().getFullYear())</script> <span class="fw-bold"><?= $title; ?></span> .
-                        Design with <i class="mdi mdi-heart text-danger"></i> by <a
-                            href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset"><span
-                                class="fw-bold">Themesdesign</span></a>.
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> <span class="fw-bold"><?= $title; ?></span> .
+                        Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset"><span class="fw-bold">Themesdesign</span></a>.
                     </div>
                 </div>
             </div>
@@ -688,7 +709,6 @@
             let x = `${_depth3}, ${_depth2}, ${_depth1}`;
             $("#home-animation").css('backgroundPosition', x);
         });
-
     </script>
 
 
