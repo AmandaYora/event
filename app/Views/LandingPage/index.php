@@ -76,18 +76,18 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <h2 class="title mt-5 mt-lg-0">
-                            Get Your Pro Website Done With
+                        PT Humanage Solutions
                         </h2>
                         <p class="f-16 my-4 text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Numquam soluta eius illo, recusandae tenetur saepe, eaque voluptate.</p>
-                        <button class="btn btn-primary"><i class="mdi mdi-cloud-download f-20 align-middle me-2"></i>
-                            Download free guide</button>
+                        <!-- <button class="btn btn-primary"><i class="mdi mdi-cloud-download f-20 align-middle me-2"></i>
+                            Download free guide</button> -->
 
-                        <div class="get-link mt-4">
+                        <!-- <div class="get-link mt-4">
                             <a href="" class="text-primary font-weight-600 f-14"><span
                                     class="text-muted font-weight-500">Have questions?</span><span>Get Free From<i
                                         class="mdi mdi-arrow-right"></i></span> </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-6 mt-5">
                         <div class="animation-image" id="home-animation">
@@ -154,25 +154,27 @@
     <section class="section bg-light" id="service">
         <div class="container">
             <div class="row justify-content-center mb-4 pb-2">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="heading text-center">
-                        <h6 class="text-muted f-16 fw-normal">Learning to Write as a Professional</h6>
-                        <h2 class="mb-3">Start <span class="text-primary fw-normal"> your project </span> with these
-                            <br> stunning pages.
+                    <h2 class="title mt-5 mt-lg-0">
+                        PT Humanage Solutions
                         </h2>
-                        <p class="text-muted para-p mx-auto mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Nulla veniam impedit hic, tempore esse voluptatum. </p>
+                        <h2 class="mb-3"><span class="text-primary fw-normal">"Find Your Event Match"</span>
+                        </h2>
+                        <p class="text-muted para-p mx-auto mb-0">Merupakan perusahaan yang resmi berdiri pada tahun 2023. 
+                            di Indonesia yang sudah tersertifikasi dan sesuai dengan kebutuhan pasar.
+                            Menyediakan wadah berbasis teknologi web aplikasi bernama Talent Event, PT Humanage Solutions memiliki 
+                            tujuan untuk menjadi penghubung antara PCE/PEO dan Event Outsource</p>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-4 mt-4 pt-2">
                     <div class="service-box text-center text-lg-start">
                         <div class="service-image">
                             <img src="<?= base_url('assets/landingpage/images/service/img-1.png'); ?>" alt="img-fluid">
                         </div>
-                        <h5 class="fw-bold mt-4 mb-3">Customize Preferences</h5>
+                        <h5 class="fw-bold mt-4 mb-3">VISI</h5>
                         <p>Learners are given the right to arrange and customize their study schedule and timetable
                             based on preferences.</p>
                         <div class="button-link mt-2">
@@ -186,7 +188,7 @@
                         <div class="service-image">
                             <img src="<?= base_url('assets/landingpage/images/service/img-2.png'); ?>" alt="img-fluid">
                         </div>
-                        <h5 class="fw-bold mt-4 mb-3">Truly Multipurpose</h5>
+                        <h5 class="fw-bold mt-4 mb-3">MISI</h5>
                         <p>Learners are given the right to arrange and customize their study schedule and timetable
                             based on preferences.</p>
                         <div class="button-link mt-2">
@@ -200,7 +202,7 @@
                         <div class="service-image">
                             <img src="<?= base_url('assets/landingpage/images/service/img-3.png'); ?>" alt="img-fluid">
                         </div>
-                        <h5 class="fw-bold mt-4 mb-3">Strategy Solutions</h5>
+                        <h5 class="fw-bold mt-4 mb-3">WHY CHOOSE US?</h5>
                         <p>Learners are given the right to arrange and customize their study schedule and timetable
                             based on preferences.</p>
                         <div class="button-link mt-2">
