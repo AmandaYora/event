@@ -9,7 +9,8 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
-    <title><?= $title; ?></title>
+    <title><?= $title; ?>
+</title> 
 
 
     <!-- Bootstrap core CSS -->
