@@ -349,7 +349,6 @@
                                 <div id="inner-3">
                                     <div class="demo-img-2">
                                         <div class="demo-overlay">
-
                                         </div>
                                     </div>
                                 </div>
@@ -360,18 +359,16 @@
             </div>
         </div>
 
-
-        <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1" aria-hidden="true">
+        <!-- <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
                 <div class="modal-content hero-modal-0 bg-transparent">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <video id="VisaChipCardVideo" class="w-100" controls="">
                         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                        <!--Browser does not support <video> tag -->
                     </video>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     <!-- end features -->
 
@@ -541,7 +538,7 @@
                                 </div>
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1789"></h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Instagram</h5>
-                                <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
+                                <h6 class="counter-caption mb-0 mt-3">@TalentEvent</h6>
                             </div>
                             <div class="side-border-right"></div>
                         </div>
@@ -553,7 +550,7 @@
                                 <img src="<?= base_url('assets/landingpage/images/counter/project-running.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="19">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Twitter</h5>
-                                <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
+                                <h6 class="counter-caption mb-0 mt-3">@TalentEvent</h6>
                             </div>
                             <div class="side-border-right"></div>
                         </div>
@@ -565,7 +562,7 @@
                                 <img src="<?= base_url('assets/landingpage/images/counter/check.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="24">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Tiktok</h5>
-                                <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
+                                <h6 class="counter-caption mb-0 mt-3">@TalentEvent</h6>
                             </div>
                         </div>
                     </div>
@@ -577,7 +574,7 @@
                                 <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Youtube</h5>
-                                <h4 class="counter-caption mb-0 mt-3">Talent Event</h4>
+                                <h6 class="counter-caption mb-0 mt-3">Talent Event</h6>
                             </div>
                             <div class="side-border-right"></div>
                         </div>
@@ -590,7 +587,7 @@
                                 <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Phone</h5>
-                                <h4 class="counter-caption mb-0 mt-3">021-3456789</h4>
+                                <h6 class="counter-caption mb-0 mt-3">021-3456789</h6>
                             </div>
                             <div class="side-border-right"></div>
                         </div>
@@ -603,7 +600,7 @@
                                 <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Email</h5>
-                                <h4 class="counter-caption mt-3">info@talentevent.com</h4>
+                                <h6 class="counter-caption mt-3">info@talentevent.com</h6>
                             </div>
                             <div class="side-border-right"></div>
                         </div>
@@ -717,7 +714,7 @@
     <!-- start footer -->
     <section class="footer py-5 bg-light">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="address-content fw-bold">
                         <h5 class="text-black">Address</h5>
@@ -776,7 +773,8 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script> <span class="fw-bold"><?= $title; ?></span> .
-                        Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset"><span class="fw-bold">Themesdesign</span></a>.
+                        Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset">
+                            <span class="fw-bold">Themesdesign</span></a>.
                     </div>
                 </div>
             </div>
