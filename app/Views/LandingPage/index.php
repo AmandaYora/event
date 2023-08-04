@@ -15,6 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?= base_url('assets/landingpage/css/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdi-font@2.2.43/css/materialdesignicons.min.css">
 
     <!-- tiny slider -->
     <link href="<?= base_url('assets/landingpage/css/tiny-slider.css'); ?>" rel="stylesheet">
@@ -23,6 +24,9 @@
 
     <!-- Materialdesign icons css -->
     <link href="<?= base_url('assets/landingpage/css/materialdesignicons.min.css'); ?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdi-font@2.2.43/css/materialdesignicons.min.css">
+    
+
 
     <!-- Custom styles for this template -->
     <link href="<?= base_url('assets/landingpage/css/style.css'); ?>" rel="stylesheet">
@@ -95,7 +99,7 @@
                     <div class="col-lg-6 mt-5">
                         <div class="animation-image" id="home-animation">
                             <div class="main-image mt-5 mt-lg-0 ms-lg-5 position-relative">
-                                <img src="<?= base_url('assets/landingpage/images/home/home-bg.png'); ?>" alt="" class="img-fluid">
+                                <img src="<?= base_url('assets/landingpage/images/home/home-bg.jpg'); ?>" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -228,7 +232,7 @@
                 <div class="col-lg-7">
                     <div class="sec-image position-relative " id="sec-image">
                         <div class="bg-img overflow-hidden border-radius">
-                            <img src="<?= base_url('assets/landingpage/images/features/img-1.png'); ?>" alt="" class="img-fluid">
+                            <img src="<?= base_url('assets/landingpage/images/features/img-11.jpg'); ?>" alt="" class="img-fluid">
                         </div>
                         <div class="youtube-icon ">
                             <a href="#watchvideomodal" data-bs-toggle="modal">
@@ -413,11 +417,10 @@
                     </div>
                 </div>
             </div>
-
             <div class="row mt-5">
                 <div class="col-lg-4 col-md-6 mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
-                        <img src="assets/landingpage/images/blog/img-1.jpg" alt="" class="img-fluid w-100">
+                        <img src="assets/landingpage/images/blog/img-122.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div class="blog-content mb-2">
                         <!-- <a href="">
@@ -443,7 +446,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
-                        <img src="assets/landingpage/images/blog/img-2.jpg" alt="" class="img-fluid w-100">
+                        <img src="assets/landingpage/images/blog/img-222.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div class="blog-content mb-2">
                         <!-- <a href="">
@@ -469,7 +472,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6  mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
-                        <img src="assets/landingpage/images/blog/img-3.jpg" alt="" class="img-fluid w-100">
+                        <img src="assets/landingpage/images/blog/img-333.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div class="blog-content">
                         <!-- <a href="">
@@ -534,7 +537,7 @@
                             <div class="side-border-left"></div>
                             <div class="py-5 pb-0">
                                 <div class="counter-image">
-                                    <img src="<?= base_url('assets/landingpage/images/counter/support.png'); ?>" alt="">
+                                    <img src="<?= base_url('assets/landingpage/images/counter/instagram.png'); ?>" alt="">
                                 </div>
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1789"></h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Instagram</h5>
@@ -547,7 +550,7 @@
                     <div class="col-lg-2 p-lg-0">
                         <div class="counter-box py-0 py-lg-5 text-center">
                             <div class="py-5 pb-0">
-                                <img src="<?= base_url('assets/landingpage/images/counter/project-running.png'); ?>" alt="">
+                                <img src="<?= base_url('assets/landingpage/images/counter/twitter.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="19">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Twitter</h5>
                                 <h6 class="counter-caption mb-0 mt-3">@TalentEvent</h6>
@@ -559,7 +562,7 @@
                     <div class="col-lg-2 p-lg-0">
                         <div class="counter-box py-0 py-lg-5 text-center side-border">
                             <div class="py-5 pb-0">
-                                <img src="<?= base_url('assets/landingpage/images/counter/check.png'); ?>" alt="">
+                                <img src="<?= base_url('assets/landingpage/images/counter/tik-tok.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="24">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Tiktok</h5>
                                 <h6 class="counter-caption mb-0 mt-3">@TalentEvent</h6>
@@ -571,7 +574,7 @@
                         <div class="counter-box py-0 py-lg-5 text-center side-border">
                             <div class="side-border-left"></div>
                             <div class="py-5">
-                                <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                                <img src="<?= base_url('assets/landingpage/images/counter/youtube.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Youtube</h5>
                                 <h6 class="counter-caption mb-0 mt-3">Talent Event</h6>
@@ -584,7 +587,7 @@
                         <div class="counter-box py-0 py-lg-5 text-center side-border">
                             <div class="side-border-left"></div>
                             <div class="py-5">
-                                <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                                <img src="<?= base_url('assets/landingpage/images/counter/whatsapp.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Phone</h5>
                                 <h6 class="counter-caption mb-0 mt-3">021-3456789</h6>
@@ -597,7 +600,7 @@
                         <div class="counter-box py-0 py-lg-5 text-center side-border">
                             <div class="side-border-left"></div>
                             <div class="py-5">
-                                <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                                <img src="<?= base_url('assets/landingpage/images/counter/gmail.png'); ?>" alt="">
                                 <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
                                 <h5 class="counter-caption mb-0 mt-3">Email</h5>
                                 <h6 class="counter-caption mt-3">info@talentevent.com</h6>
