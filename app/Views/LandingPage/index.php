@@ -25,7 +25,7 @@
     <!-- Materialdesign icons css -->
     <link href="<?= base_url('assets/landingpage/css/materialdesignicons.min.css'); ?>" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdi-font@2.2.43/css/materialdesignicons.min.css">
-    
+
 
 
     <!-- Custom styles for this template -->
@@ -118,7 +118,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12"> -->
-                    <!-- <div class="client-slider text-center">
+    <!-- <div class="client-slider text-center">
                         <div class="tiny-slide">
                             <img src="<?= base_url('assets/landingpage/images/clients/logo1.png'); ?>" alt="" class="img-fluid">
                         </div>
@@ -150,10 +150,10 @@
                             <img src="<?= base_url('assets/landingpage/images/clients/logo10.png'); ?>" alt="" class="img-fluid">
                         </div>
                     </div> -->
-                    <!--end client-slider-->
-                <!-- </div> -->
-                <!--end col-->
-            <!-- </div>
+    <!--end client-slider-->
+    <!-- </div> -->
+    <!--end col-->
+    <!-- </div>
         </div>
     </section> -->
     <!-- end section -->
@@ -184,8 +184,13 @@
                             <img src="<?= base_url('assets/landingpage/images/service/img-1.png'); ?>" alt="img-fluid">
                         </div>
                         <h5 class="fw-bold mt-4 mb-3">VISI</h5>
-                        <p class="text-justify">“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
-                            dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan 
+                        <style>
+                            p {
+                                text-align: justify;
+                            }
+                        </style>
+                        <p>“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
+                            dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan
                             MICE di Indonesia.”</p>
                         <!-- <div class="button-link mt-2">
                             <a href="" class="f-14 fw-bold">Start hear <i class="mdi mdi-arrow-right align-middle"></i></a>
@@ -496,7 +501,7 @@
 
 
     <!-- start blog -->
-    <section class="section bg-light"  style="padding-top:0px;" id="blog">
+    <section class="section bg-light" style="padding-top:0px;" id="blog">
         <!-- start cta -->
         <section class="cta section" id="cta-ani">
             <div class="cta-image position-relative">
@@ -708,18 +713,18 @@
     <!-- start footer -->
     <section class="footer py-5 bg-light">
         <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-6 text-center"> <!-- Menambahkan kelas text-center di sini -->
-            <div class="address-content fw-bold">
-                <h5 class="text-black">Address</h5>
-                <p class="mt-5 f-14">River Way behind Salt Lake City, UT 8402</p>
-                <p class="mt-3 f-14">+(62)021-3456789 (10am - 6pm, Monday - Saturday)</p>
-                <a href="" class="f-14">info@talentevent.com</a>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center"> <!-- Menambahkan kelas text-center di sini -->
+                    <div class="address-content fw-bold">
+                        <h5 class="text-black">Address</h5>
+                        <h4 class="mt-5 f-14">River Way behind Salt Lake City, UT 8402</h4>
+                        <h4 class="mt-3 f-14">+(62)021-3456789 (10am - 6pm, Monday - Saturday)</h4>
+                        <a href="" class="f-14">info@talentevent.com</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-                    <!-- <div class="social-icon d-flex mt-4 mb-4 mb-lg-0">
+        <!-- <div class="social-icon d-flex mt-4 mb-4 mb-lg-0">
                         <div class="facebook">
                             <a href=""><i class="mdi mdi-facebook-box f-30"></i></a>
                         </div>
@@ -733,8 +738,8 @@
                             <a href=""><i class="mdi mdi-linkedin-box f-30"></i></a>
                         </div>
                     </div> -->
-                </div>
-                <!-- <div class="col-lg-4">
+        </div>
+        <!-- <div class="col-lg-4">
                     <h5 class="text-black">Explore</h5>
                     <ul class="menu list-unstyled mt-5">
                         <li class="menu-item"><a href="">Start here</a></li>
@@ -757,7 +762,7 @@
                         <li class="info-item"><a href="">Terms of service</a></li>
                     </ul>
                 </div> -->
-            </div>
+        </div>
         </div>
     </section>
     <!-- end footer -->
@@ -769,9 +774,9 @@
                     <div class="copy-right mb-5 text-center text-muted">
                         <script>
                             document.write(new Date().getFullYear())
-                        </script> 
+                        </script>
                         <span class="fw-bold"><?= $title; ?></span>
-                       <i class="mdi mdi-heart text-danger"></i>
+                        <i class="mdi mdi-heart text-danger"></i>
                         <a href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset">
                             <!-- <span class="fw-bold">Themesdesign</span></a>. -->
                     </div>
