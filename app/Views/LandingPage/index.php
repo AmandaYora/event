@@ -112,11 +112,11 @@
 
 
     <!-- client section -->
-    <section class="section pt-0 clients">
+    <!-- <section class="section pt-0 clients">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="client-slider text-center">
+                <div class="col-lg-12"> -->
+                    <!-- <div class="client-slider text-center">
                         <div class="tiny-slide">
                             <img src="<?= base_url('assets/landingpage/images/clients/logo1.png'); ?>" alt="" class="img-fluid">
                         </div>
@@ -147,13 +147,13 @@
                         <div class="tiny-slide">
                             <img src="<?= base_url('assets/landingpage/images/clients/logo10.png'); ?>" alt="" class="img-fluid">
                         </div>
-                    </div>
+                    </div> -->
                     <!--end client-slider-->
-                </div>
+                <!-- </div> -->
                 <!--end col-->
-            </div>
+            <!-- </div>
         </div>
-    </section>
+    </section> -->
     <!-- end section -->
 
 
@@ -515,7 +515,7 @@
                             <div class="text-center">
                                 <h2 class="mt-3 fw-bold">Kepuasan Anda selalu menjadi prioritas kami
                                     Untuk pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami</h2>
-                                <button class=" btn-lg btn-primary mt-4 f-14">Get started for free</button>
+                                <!-- <button class=" btn-lg btn-primary mt-4 f-14">Get started for free</button> -->
 
                             </div>
                         </div>
@@ -717,14 +717,17 @@
     <!-- start footer -->
     <section class="footer py-5 bg-light">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="address-content fw-bold">
-                        <h5 class="text-black">Address</h5>
-                        <p class="mt-5  f-14 ">River Way behind Salt Lake City, UT 8402</p>
-                        <p class="mt-3 f-14 ">+(540)801-468-2313 (10am - 6pm, Monday - Saturday)</p>
-                        <a href="" class=" f-14">info@example.com</a>
-                    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 text-center"> <!-- Menambahkan kelas text-center di sini -->
+            <div class="address-content fw-bold">
+                <h5 class="text-black">Address</h5>
+                <p class="mt-5 f-14">River Way behind Salt Lake City, UT 8402</p>
+                <p class="mt-3 f-14">+(540)801-468-2313 (10am - 6pm, Monday - Saturday)</p>
+                <a href="" class="f-14">info@example.com</a>
+            </div>
+        </div>
+    </div>
+</div>
                     <!-- <div class="social-icon d-flex mt-4 mb-4 mb-lg-0">
                         <div class="facebook">
                             <a href=""><i class="mdi mdi-facebook-box f-30"></i></a>
@@ -775,9 +778,11 @@
                     <div class="copy-right mb-5 text-center text-muted">
                         <script>
                             document.write(new Date().getFullYear())
-                        </script> <span class="fw-bold"><?= $title; ?></span> .
-                        Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset">
-                            <span class="fw-bold">Themesdesign</span></a>.
+                        </script> 
+                        <span class="fw-bold"><?= $title; ?></span>
+                       <i class="mdi mdi-heart text-danger"></i>
+                        <a href="https://themeforest.net/search/themesdesign" target="_blank" class="text-reset">
+                            <!-- <span class="fw-bold">Themesdesign</span></a>. -->
                     </div>
                 </div>
             </div>
