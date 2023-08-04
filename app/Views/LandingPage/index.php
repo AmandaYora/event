@@ -75,6 +75,56 @@
 
 
     <!-- start home section -->
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        .navbar {
+            background-color: #fff;
+            /* Ganti dengan warna latar belakang navbar yang Anda inginkan */
+            /* Ganti atau tambahkan properti CSS lain untuk mengatur tampilan navbar */
+        }
+
+        .home {
+            background-color: #00BFFF;
+            /* Ganti dengan warna latar belakang yang Anda inginkan */
+        }
+
+        #features {
+            background-color: #00BFFF;
+            /* Ganti dengan warna latar belakang yang Anda inginkan */
+        }
+
+        #service {
+            background-color: #DCDCDC;
+            /* Ganti dengan warna latar belakang yang Anda inginkan */
+        }
+
+        .card {
+            background-color: #DC143C;
+            /* Ganti dengan warna latar belakang yang Anda inginkan */
+        }
+
+        #faq {
+            background-color: #DCDCDC;
+            /* Ganti dengan warna latar belakang yang Anda inginkan */
+        }
+
+        #blog {
+            background-color: #00BFFF;
+            /* Ganti dengan warna latar belakang yang Anda inginkan */
+        }
+
+        #kembangkan {
+            margin-top: 100px;
+        }
+
+        .text-black {
+            color: #000000;
+            /* Ganti dengan warna teks yang Anda inginkan */
+        }
+    </style>
     <section class="home" id="home">
         <div class="container" id="ani-round">
             <div class="home-content">
@@ -83,7 +133,7 @@
                         <h2 class="title mt-5 mt-lg-0">
                             PT Humanage Solutions
                         </h2>
-                        <p class="f-16 my-4 text-muted">Komitmen kami dalam menyediakan informasi terpercaya dan terkini
+                        <p class="f-16 my-4 text-black">Komitmen kami dalam menyediakan informasi terpercaya dan terkini
                             terkait tenaga lepas atau pun event yang membutuhkan jasa tenaga lepas, menjadi salah satu
                             dari sekian banyak hal yang ditawarkan melalui web aplikasi Kanaka Indonesia. Hal tersebut
                             dapat tersampaikan dengan jelas
@@ -160,7 +210,7 @@
 
 
     <!-- start service -->
-    <section class="section bg-light" id="service">
+    <section class="section" id="service">
         <div class="container">
             <div class="row justify-content-center mb-4 pb-2">
                 <div class="col-lg-12">
@@ -170,7 +220,7 @@
                         </h2>
                         <h2 class="mb-3"><span class="text-primary fw-normal">"Find Your Event Match"</span>
                         </h2>
-                        <p class="text-muted para-p mx-auto mb-0">Merupakan perusahaan yang resmi berdiri pada tahun 2023.
+                        <p class="text-black para-p mx-auto mb-0">Merupakan perusahaan yang resmi berdiri pada tahun 2023.
                             di Indonesia yang sudah tersertifikasi dan sesuai dengan kebutuhan pasar.
                             Menyediakan wadah berbasis teknologi web aplikasi bernama Talent Event, PT Humanage Solutions memiliki
                             tujuan untuk menjadi penghubung antara PCE/PEO dan Event Outsource</p>
@@ -184,11 +234,6 @@
                             <img src="<?= base_url('assets/landingpage/images/service/img-1.png'); ?>" alt="img-fluid">
                         </div>
                         <h5 class="fw-bold mt-4 mb-3">VISI</h5>
-                        <style>
-                            p {
-                                text-align: justify;
-                            }
-                        </style>
                         <p>“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
                             dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan
                             MICE di Indonesia.”</p>
@@ -259,8 +304,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0">
-                    <h1 class="fw-bold mt-2"><span class="text-primary fw-normal">EVENT OUTSOURCE</span></h1>
-                    <p class="mt-3">Talent Event siap menjamin kualitas dari setiap individu Event Outsource.
+                    <h1 class="fw-bold mt-2"><span class="text-black fw-normal">EVENT OUTSOURCE</span></h1>
+                    <p class="mt-3 text-black">Talent Event siap menjamin kualitas dari setiap individu Event Outsource.
                         Tim Talent Event telah melakukan penyaringan dan verifikasi secara menyeluruh terhadap setiap
                         Event Outsource yang terdaftar. Talent Event menyediakan pilihan Event Outsource berdasarkan
                         bidang pekerjaan dan pengalaman, setiap bidang pekerjaan terbagi menjadi dua kategori pengalaman
@@ -275,18 +320,18 @@
             <div class="features-2" id="part2">
                 <div class="row align-items-center">
                     <div class="col-lg-4 order-2 order-lg-1 mt-5 mt-lg-0">
-                        <h1 class="fw-bold mt-2"><span class="text-primary fw-normal">OUR PROFESSIONAL EVENT OUTSOURCE</span>
+                        <h1 class="fw-bold mt-2"><span class="text-black fw-normal">OUR PROFESSIONAL EVENT OUTSOURCE</span>
                         </h1>
                         <!-- start 1 -->
                         <div class="card mt-4">
                             <a data-bs-toggle="collapse" href="#collapse1" class="faq collapsed">
                                 <div class="card-header p-4" id="heading1">
-                                    <h5 class="mb-0 text-dark">LO (Liaison officer)</h5>
+                                    <h5 class="mb-0 text-white">LO (Liaison officer)</h5>
                                 </div>
                             </a>
-                            <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+                            <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">adalah penghubung kunci dalam acara, memfasilitasi komunikasi lancar antara
+                                    <p class="mb-0 text-white">adalah penghubung kunci dalam acara, memfasilitasi komunikasi lancar antara
                                         peserta dan penyelenggara. Tugasnya mencakup koordinasi logistik, pengelolaan informasi, dan
                                         memastikan pelaksanaan yang sukses.</p>
                                 </div>
@@ -299,12 +344,12 @@
                         <div class="card mt-4">
                             <a data-bs-toggle="collapse" href="#collapse2" class="faq collapsed">
                                 <div class="card-header p-4" id="heading2">
-                                    <h5 class="mb-0 text-dark">Registration</h5>
+                                    <h5 class="mb-0 text-white">Registration</h5>
                                 </div>
                             </a>
                             <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Registration mengurus proses pendaftaran peserta untuk acara dengan efisien.
+                                    <p class="mb-0 text-white">Registration mengurus proses pendaftaran peserta untuk acara dengan efisien.
                                         Melibatkan pengumpulan informasi, pembayaran, dan pemrosesan data penting. Memastikan peserta terdaftar
                                         dengan tepat sehingga acara dapat berjalan dengan lancar.</p>
                                 </div>
@@ -317,12 +362,12 @@
                         <div class="card mt-4">
                             <a data-bs-toggle="collapse" href="#collapse3" class="faq collapsed">
                                 <div class="card-header p-4" id="heading3">
-                                    <h5 class="mb-0 text-dark">Marketing Communication</h5>
+                                    <h5 class="mb-0 text-white">Marketing Communication</h5>
                                 </div>
                             </a>
                             <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Marketing Communication memainkan peran kunci dalam mempromosikan acara dan
+                                    <p class="mb-0 text-white">Marketing Communication memainkan peran kunci dalam mempromosikan acara dan
                                         berkomunikasi dengan audiens. Menggunakan berbagai strategi seperti media sosial, iklan, dan konten
                                         kreatif untuk menciptakan kesadaran dan menarik peserta. Memastikan pesan acara disampaikan secara
                                         efektif kepada target pasar.</p>
@@ -335,12 +380,12 @@
                         <div class="card mt-4">
                             <a data-bs-toggle="collapse" href="#collapse4" class="faq collapsed" aria-expanded="false" aria-controls="collapse4">
                                 <div class="card-header p-4" id="heading4">
-                                    <h5 class="mb-0 text-dark">Standbuilding</h5>
+                                    <h5 class="mb-0 text-white">Standbuilding</h5>
                                 </div>
                             </a>
                             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Stand Building merancang dan membangun stuktur fisik untuk pameran yang
+                                    <p class="mb-0 text-white">Stand Building merancang dan membangun stuktur fisik untuk pameran yang
                                         menciptakan tampilan menarik dan profesional. Menggabungkan desain kreatif dengan fungsionalitas,
                                         menciptakan ruang yang memikat untuk menampilkan produk dan informasi penting.</p>
                                 </div>
@@ -389,21 +434,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="title-box text-center">
+                    <div class="title-box text-center" id="kembangkan">
                         <h2 class="mb-3"><span class="text-primary fw-normal">Kembangkan dirimu sekarang !</span> <br>
                             Join our journey </h2>
-                        <p class="text-muted para-p mx-auto mb-0">Kami percaya bahwa sumber daya manusia adalah salah satu aspek penting
+                        <p class="text-muted para-p mx-auto">Kami percaya bahwa sumber daya manusia adalah salah satu aspek penting
                             dalam perkembangan perusahaan ini, sehingga membuka peluang sangat terbuka bagi talenta terbaik untuk bergabung
                             bersama Humanage Solution dalam membangun Event Solution di Indonesia yang dapat membuat semuanya menjadi lebih mudah.</p>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!-- end faq -->
     <!-- start blog -->
-    <section class="section bg-light" id="faq">
+    <section class="section" id="faq">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
@@ -501,7 +545,7 @@
 
 
     <!-- start blog -->
-    <section class="section bg-light" style="padding-top:0px;" id="blog">
+    <section class="section" style="padding-top:0px;" id="blog">
         <!-- start cta -->
         <section class="cta section" id="cta-ani">
             <div class="cta-image position-relative">
