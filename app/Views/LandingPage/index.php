@@ -722,8 +722,8 @@
             <div class="address-content fw-bold">
                 <h5 class="text-black">Address</h5>
                 <p class="mt-5 f-14">River Way behind Salt Lake City, UT 8402</p>
-                <p class="mt-3 f-14">+(540)801-468-2313 (10am - 6pm, Monday - Saturday)</p>
-                <a href="" class="f-14">info@example.com</a>
+                <p class="mt-3 f-14">+(62)021-3456789 (10am - 6pm, Monday - Saturday)</p>
+                <a href="" class="f-14">info@talentevent.com</a>
             </div>
         </div>
     </div>
