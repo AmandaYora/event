@@ -38,9 +38,11 @@
     <!--Navbar Start-->
     <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
         <div class="container-fluid custom-container">
-            <a class="navbar-brand logo text-uppercase" href="index.html">
+            <!-- <a class="navbar-brand logo text-uppercase" href="index.html">
                 <img src="<?= base_url('assets/landingpage/images/logo-dark.png'); ?>" class="logo-light" alt="" height="32">
-                <!-- <img src="images/logo-light.png" class="logo-dark" alt="" height="28"> -->
+            </a> -->
+            <a class="navbar-brand logo text-uppercase" href="index.html" style="font-family: 'Roboto', sans-serif; color: #000000; font-size: 24px; font-weight: bold; letter-spacing: 1px; padding-left: 25px;">
+                <?= $title ?>
             </a>
 
             <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
