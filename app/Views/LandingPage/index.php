@@ -226,7 +226,7 @@
     <!-- end service -->
 
     <!-- start features -->
-    <section class="section " id="features">
+    <section class="section" id="features">
         <div class="container">
             <div class="row align-items-center" id="part1">
                 <div class="col-lg-7">
@@ -377,7 +377,7 @@
     <!-- end features -->
 
     <!-- start faq  -->
-    <section class="section faq" id="faq">
+    <section class="section" style="padding-top:0px;" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -389,18 +389,6 @@
                             bersama Humanage Solution dalam membangun Event Solution di Indonesia yang dapat membuat semuanya menjadi lebih mudah.</p>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6">
-                    <div class="accordion mt-5" id="accordionExample">
-                        <div class="faq-collaps faq-collaps-2">
-
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-6">
-                    <img src="<?= base_url('assets/landingpage/images/faq/Questions.png'); ?>" alt="" class="img-fluid">
-                </div> -->
             </div>
 
         </div>
@@ -505,7 +493,7 @@
 
 
     <!-- start blog -->
-    <section class="section bg-light" id="blog">
+    <section class="section bg-light"  style="padding-top:0px;" id="blog">
         <!-- start cta -->
         <section class="cta section" id="cta-ani">
             <div class="cta-image position-relative">
