@@ -38,10 +38,10 @@
     <!--Navbar Start-->
     <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
         <div class="container-fluid custom-container">
-            <a class="navbar-brand logo text-uppercase" href="index.html">
-                <img src="<?= base_url('assets/landingpage/images/logo-dark.png'); ?>" class="logo-light" alt="" height="32">
+            <!-- <a class="navbar-brand logo text-uppercase" href="index.html">
+                <img src="<?= base_url('assets/landingpage/images/logo-dark.png'); ?>" class="logo-light" alt="" height="32"> -->
                 <!-- <img src="images/logo-light.png" class="logo-dark" alt="" height="28"> -->
-            </a>
+            <!-- </a> -->
 
             <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
                 <i class="mdi mdi-menu"></i>
@@ -59,9 +59,9 @@
             <!--end navabar-collapse-->
             <div class="header-menu list-inline d-flex align-items-center mb-0 order-1">
                 <div class="Account ">
-                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <!-- <a data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="mdi mdi-account-box-outline f-24 text-black"></i>
-                    </a>
+                    </a> -->
 
                 </div>
             </div>
@@ -182,8 +182,9 @@
                             <img src="<?= base_url('assets/landingpage/images/service/img-1.png'); ?>" alt="img-fluid">
                         </div>
                         <h5 class="fw-bold mt-4 mb-3">VISI</h5>
-                        <p>“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
-                            dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan MICE di Indonesia.”</p>
+                        <p class="text-justify">“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
+                            dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan 
+                            MICE di Indonesia.”</p>
                         <!-- <div class="button-link mt-2">
                             <a href="" class="f-14 fw-bold">Start hear <i class="mdi mdi-arrow-right align-middle"></i></a>
                         </div> -->
@@ -420,7 +421,7 @@
             <div class="row mt-5">
                 <div class="col-lg-4 col-md-6 mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
-                        <img src="assets/landingpage/images/blog/img-122.jpg" alt="" class="img-fluid w-100">
+                        <img src="assets/landingpage/images/blog/img-111.jpg" alt="" class="img-fluid w-100">
                     </div>
                     <div class="blog-content mb-2">
                         <!-- <a href="">
@@ -440,9 +441,9 @@
                             <p class="mb-0 ms-2">25 September 2023</p>
                         </div>
                     </div>
-                    <div class="blog-link">
+                    <!-- <div class="blog-link">
                         <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
@@ -466,9 +467,9 @@
                             <p class="mb-0 ms-2">16 Agustus 2023</p>
                         </div>
                     </div>
-                    <div class="blog-link">
+                    <!-- <div class="blog-link">
                         <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-4 col-md-6  mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
@@ -492,9 +493,9 @@
                             <p class="mb-0 ms-2">14 Agustus 2023</p>
                         </div>
                     </div>
-                    <div class="blog-link">
+                    <!-- <div class="blog-link">
                         <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
