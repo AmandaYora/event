@@ -77,8 +77,12 @@
                         <h2 class="title mt-5 mt-lg-0">
                             PT Humanage Solutions
                         </h2>
-                        <p class="f-16 my-4 text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Numquam soluta eius illo, recusandae tenetur saepe, eaque voluptate.</p>
+                        <p class="f-16 my-4 text-muted">Komitmen kami dalam menyediakan informasi terpercaya dan terkini
+                            terkait tenaga lepas atau pun event yang membutuhkan jasa tenaga lepas, menjadi salah satu
+                            dari sekian banyak hal yang ditawarkan melalui web aplikasi Kanaka Indonesia. Hal tersebut
+                            dapat tersampaikan dengan jelas
+                            melalui tagline Talent Event yang berbunyi, “Find Your Event Match".
+                        </p>
                         <!-- <button class="btn btn-primary"><i class="mdi mdi-cloud-download f-20 align-middle me-2"></i>
                             Download free guide</button> -->
 
@@ -176,9 +180,9 @@
                         <h5 class="fw-bold mt-4 mb-3">VISI</h5>
                         <p>“Menjadi perusahaan terdepan dan terpercaya untuk memberikan solusi terbaik
                             dalam penyediaan jasa tenaga outsourcing yang profesional dan berkompeten untuk kegiatan MICE di Indonesia.”</p>
-                        <div class="button-link mt-2">
+                        <!-- <div class="button-link mt-2">
                             <a href="" class="f-14 fw-bold">Start hear <i class="mdi mdi-arrow-right align-middle"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4 pt-2">
@@ -191,9 +195,9 @@
                         <li>Membangun kerjasama yang erat dengan pelanggan, vendor, dan mitra strategis untuk meningkatkan kinerja perusahaan dan memperluas jaringan bisnis.</li>
                         <li>Memberikan pelayanan yang prima dan berorientasi pada kepuasan pelanggan, dengan mengutamakan profesionalitas dan kualitas kerja.</li>
 
-                        <div class="button-link mt-2">
+                        <!-- <div class="button-link mt-2">
                             <a href="" class="f-14 fw-bold">Get Free Quote <i class="mdi mdi-arrow-right align-middle"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4 pt-2">
@@ -207,9 +211,9 @@
                             fleksibel. Event Planner dan Event Outsource dapat mendaftarkan diri serta mengontrol profil mereka melalui
                             masing-masing tombol yang disediakan secara khusus.
                             Selain itu, mereka dapat mengakses informasi terkini seputar industri event Indonesia.</p>
-                        <div class="button-link mt-2">
+                        <!-- <div class="button-link mt-2">
                             <a href="" class=" f-14 fw-bold">Start hear <i class="mdi mdi-arrow-right align-middle"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -270,9 +274,9 @@
                             </a>
                             <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Vulputate lobortis tincidunt porttitor massa morbi
-                                        suscipit mollis luctus ullamcorper phasellus ante finibus facilisis
-                                        .</p>
+                                    <p class="mb-0 text-muted">adalah penghubung kunci dalam acara, memfasilitasi komunikasi lancar antara
+                                        peserta dan penyelenggara. Tugasnya mencakup koordinasi logistik, pengelolaan informasi, dan
+                                        memastikan pelaksanaan yang sukses.</p>
                                 </div>
                             </div>
                         </div>
@@ -288,8 +292,9 @@
                             </a>
                             <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Quisque tincidunt the malesuada aliquet ullamcorper
-                                        Suspendisse lectus congue iaculis vitae purus Nullam.</p>
+                                    <p class="mb-0 text-muted">Registration mengurus proses pendaftaran peserta untuk acara dengan efisien.
+                                        Melibatkan pengumpulan informasi, pembayaran, dan pemrosesan data penting. Memastikan peserta terdaftar
+                                        dengan tepat sehingga acara dapat berjalan dengan lancar.</p>
                                 </div>
                             </div>
                         </div>
@@ -305,9 +310,10 @@
                             </a>
                             <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Pellentesque tincidunt imperdiet metus interdum
-                                        ligula tristique aenean facilisis congue congue libero interdum venenatis
-                                        scelerisque sed massa elit pulvinar gravida.</p>
+                                    <p class="mb-0 text-muted">Marketing Communication memainkan peran kunci dalam mempromosikan acara dan
+                                        berkomunikasi dengan audiens. Menggunakan berbagai strategi seperti media sosial, iklan, dan konten
+                                        kreatif untuk menciptakan kesadaran dan menarik peserta. Memastikan pesan acara disampaikan secara
+                                        efektif kepada target pasar.</p>
                                 </div>
                             </div>
                         </div>
@@ -322,8 +328,9 @@
                             </a>
                             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                                 <div class="card-body pt-1">
-                                    <p class="mb-0 text-muted">Vestibulum sodales turpis vestibulum praesent
-                                        consectetur magna tortor interdum neque. </p>
+                                    <p class="mb-0 text-muted">Stand Building merancang dan membangun stuktur fisik untuk pameran yang
+                                        menciptakan tampilan menarik dan profesional. Menggabungkan desain kreatif dengan fungsionalitas,
+                                        menciptakan ruang yang memikat untuk menampilkan produk dan informasi penting.</p>
                                 </div>
                             </div>
                         </div>
@@ -374,11 +381,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-box text-center">
-                        <h6 class="text-muted fw-normal">quickly find the help you need</h6>
-                        <h2 class="mb-3">Our <span class="text-primary fw-normal">Frequently Ask Question</span> <br>
-                            support center </h2>
-                        <p class="text-muted para-p mx-auto mb-0">consectetur adipisicing elit. Eius, praesentium,
-                            dignissimos placeat ad fugiat illum iusto dolorum nobis fuga, ut nemo.</p>
+                        <h2 class="mb-3"><span class="text-primary fw-normal">Kembangkan dirimu sekarang !</span> <br>
+                            Join our journey </h2>
+                        <p class="text-muted para-p mx-auto mb-0">Kami percaya bahwa sumber daya manusia adalah salah satu aspek penting
+                            dalam perkembangan perusahaan ini, sehingga membuka peluang sangat terbuka bagi talenta terbaik untuk bergabung
+                            bersama Humanage Solution dalam membangun Event Solution di Indonesia yang dapat membuat semuanya menjadi lebih mudah.</p>
                     </div>
                 </div>
             </div>
@@ -390,131 +397,225 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <img src="<?= base_url('assets/landingpage/images/faq/Questions.png'); ?>" alt="" class="img-fluid">
-                </div>
+                </div> -->
             </div>
 
         </div>
     </section>
     <!-- end faq -->
+    <!-- start blog -->
+    <section class="section bg-light" id="faq">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center">
+                        <h1 class="mb-3"><span class="text-primary fw-normal"></span>Open Position</h1>
+                        <h2 class="text-muted para-p mx-auto mb-0">Ayo mulai karir bersama!</h2>
+                    </div>
+                </div>
+            </div>
 
-   
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 mt-4 mt-2">
+                    <div class="blog-image overflow-hidden">
+                        <img src="assets/landingpage/images/blog/img-1.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="blog-content mb-2">
+                        <!-- <a href="">
+                            <h6 class="mt-4 mb-2 text-uppercase f-14">Health</h6>
+                        </a> -->
+                        <a href="">
+                            <h4>Digital Marketing</h4>
+                        </a>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="d-flex align-items-center text-muted">
+                            <i class="mdi mdi-account-outline f-22 "></i>
+                            <p class="mb-0 ms-2">D3,S1</p>
+                        </div>
+                        <div class="d-flex align-items-center text-muted ms-4">
+                            <i class="mdi mdi-calendar-blank f-22 "></i>
+                            <p class="mb-0 ms-2">25 September 2023</p>
+                        </div>
+                    </div>
+                    <div class="blog-link">
+                        <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-2">
+                    <div class="blog-image overflow-hidden">
+                        <img src="assets/landingpage/images/blog/img-2.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="blog-content mb-2">
+                        <!-- <a href="">
+                            <h6 class="mt-4 mb-2 text-uppercase f-14">food</h6>
+                        </a> -->
+                        <a href="">
+                            <h4>Graphic Designer</h4>
+                        </a>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="d-flex align-items-center text-muted">
+                            <i class="mdi mdi-account-outline f-22 "></i>
+                            <p class="mb-0 ms-2">SMK,D3,S1</p>
+                        </div>
+                        <div class="d-flex align-items-center text-muted ms-4">
+                            <i class="mdi mdi-calendar-blank f-22 "></i>
+                            <p class="mb-0 ms-2">16 Agustus 2023</p>
+                        </div>
+                    </div>
+                    <div class="blog-link">
+                        <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  mt-4 mt-2">
+                    <div class="blog-image overflow-hidden">
+                        <img src="assets/landingpage/images/blog/img-3.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="blog-content">
+                        <!-- <a href="">
+                            <h6 class="mt-4 lh-1 text-uppercase f-14">Fitness</h6>
+                        </a> -->
+                        <a href="">
+                            <h4>Customer Service</h4>
+                        </a>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="d-flex align-items-center text-muted">
+                            <i class="mdi mdi-account-outline f-22 "></i>
+                            <p class="mb-0 ms-2">SMA,SMK,D3,S1</p>
+                        </div>
+                        <div class="d-flex align-items-center text-muted ms-4">
+                            <i class="mdi mdi-calendar-blank f-22 "></i>
+                            <p class="mb-0 ms-2">14 Agustus 2023</p>
+                        </div>
+                    </div>
+                    <div class="blog-link">
+                        <a href="" class="fw-bold f-14">Read more <i class="mdi mdi-arrow-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog -->
+
+
 
 
     <!-- start blog -->
     <section class="section bg-light" id="blog">
-             <!-- start cta -->
-    <section class="cta section" id="cta-ani">
-        <div class="cta-image position-relative">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="text-center">
-                            <h5 class="text-dark ">A simple and smart design grow <span class="text-primary">your
-                                    business </span> </h5>
-                            <h2 class="mt-3 fw-bold">Our mission Ultimate features to Grow Your Business.</h2>
-                            <button class=" btn-lg btn-primary mt-4 f-14">Get started for free</button>
+        <!-- start cta -->
+        <section class="cta section" id="cta-ani">
+            <div class="cta-image position-relative">
+                <div class="container position-relative">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="text-center">
+                                <h2 class="mt-3 fw-bold">Kepuasan Anda selalu menjadi prioritas kami
+                                    Untuk pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami</h2>
+                                <button class=" btn-lg btn-primary mt-4 f-14">Get started for free</button>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end cta -->
-
-
-
-
-    <!-- counter section-->
-    <section class="counter">
-        <div class="container">
-            <div class="row" id="counter">
-                <div class="col-lg-2 p-lg-0">
-                    <div class="counter-box py-0 py-lg-5 text-center position-relative">
-                        <div class="side-border-left"></div>
-                        <div class="py-5 pb-0">
-                            <div class="counter-image">
-                                <img src="<?= base_url('assets/landingpage/images/counter/support.png'); ?>" alt="">
                             </div>
-                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1789"></h2> -->
-                            <h5 class="counter-caption mb-0 mt-3">Instagram</h5>
-                            <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
-                        </div>
-                        <div class="side-border-right"></div>
-                    </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-2 p-lg-0">
-                    <div class="counter-box py-0 py-lg-5 text-center">
-                        <div class="py-5 pb-0">
-                            <img src="<?= base_url('assets/landingpage/images/counter/project-running.png'); ?>" alt="">
-                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="19">0</h2> -->
-                            <h5 class="counter-caption mb-0 mt-3">Twitter</h5>
-                            <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
-                        </div>
-                        <div class="side-border-right"></div>
-                    </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-2 p-lg-0">
-                    <div class="counter-box py-0 py-lg-5 text-center side-border">
-                        <div class="py-5 pb-0">
-                            <img src="<?= base_url('assets/landingpage/images/counter/check.png'); ?>" alt="">
-                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="24">0</h2> -->
-                            <h5 class="counter-caption mb-0 mt-3">Tiktok</h5>
-                            <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
                         </div>
                     </div>
                 </div>
-                <!-- end col -->
-                <div class="col-lg-2 p-lg-0">
-                    <div class="counter-box py-0 py-lg-5 text-center side-border">
-                        <div class="side-border-left"></div>
-                        <div class="py-5">
-                            <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
-                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
-                            <h5 class="counter-caption mb-0 mt-3">Youtube</h5>
-                            <h4 class="counter-caption mb-0 mt-3">Talent Event</h4>
-                        </div>
-                        <div class="side-border-right"></div>
-                    </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-2 p-lg-0">
-                    <div class="counter-box py-0 py-lg-5 text-center side-border">
-                        <div class="side-border-left"></div>
-                        <div class="py-5">
-                            <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
-                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
-                            <h5 class="counter-caption mb-0 mt-3">Phone</h5>
-                            <h4 class="counter-caption mb-0 mt-3">021-3456789</h4>
-                        </div>
-                        <div class="side-border-right"></div>
-                    </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-2 p-lg-0">
-                    <div class="counter-box py-0 py-lg-5 text-center side-border">
-                        <div class="side-border-left"></div>
-                        <div class="py-5">
-                            <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
-                            <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
-                            <h5 class="counter-caption mb-0 mt-3">Email</h5>
-                            <h4 class="counter-caption mt-3">info@talentevent.com</h4>
-                        </div>
-                        <div class="side-border-right"></div>
-                    </div>
-                </div>
-                <!-- end col -->
             </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </section>
-    <!-- end counter -->
-            <!-- <div class="row justify-content-center">
+        </section>
+        <!-- end cta -->
+
+
+
+
+        <!-- counter section-->
+        <section class="counter">
+            <div class="container">
+                <div class="row" id="counter">
+                    <div class="col-lg-2 p-lg-0">
+                        <div class="counter-box py-0 py-lg-5 text-center position-relative">
+                            <div class="side-border-left"></div>
+                            <div class="py-5 pb-0">
+                                <div class="counter-image">
+                                    <img src="<?= base_url('assets/landingpage/images/counter/support.png'); ?>" alt="">
+                                </div>
+                                <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1789"></h2> -->
+                                <h5 class="counter-caption mb-0 mt-3">Instagram</h5>
+                                <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
+                            </div>
+                            <div class="side-border-right"></div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-2 p-lg-0">
+                        <div class="counter-box py-0 py-lg-5 text-center">
+                            <div class="py-5 pb-0">
+                                <img src="<?= base_url('assets/landingpage/images/counter/project-running.png'); ?>" alt="">
+                                <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="19">0</h2> -->
+                                <h5 class="counter-caption mb-0 mt-3">Twitter</h5>
+                                <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
+                            </div>
+                            <div class="side-border-right"></div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-2 p-lg-0">
+                        <div class="counter-box py-0 py-lg-5 text-center side-border">
+                            <div class="py-5 pb-0">
+                                <img src="<?= base_url('assets/landingpage/images/counter/check.png'); ?>" alt="">
+                                <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="24">0</h2> -->
+                                <h5 class="counter-caption mb-0 mt-3">Tiktok</h5>
+                                <h4 class="counter-caption mb-0 mt-3">@TalentEvent</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-2 p-lg-0">
+                        <div class="counter-box py-0 py-lg-5 text-center side-border">
+                            <div class="side-border-left"></div>
+                            <div class="py-5">
+                                <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                                <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
+                                <h5 class="counter-caption mb-0 mt-3">Youtube</h5>
+                                <h4 class="counter-caption mb-0 mt-3">Talent Event</h4>
+                            </div>
+                            <div class="side-border-right"></div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-2 p-lg-0">
+                        <div class="counter-box py-0 py-lg-5 text-center side-border">
+                            <div class="side-border-left"></div>
+                            <div class="py-5">
+                                <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                                <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
+                                <h5 class="counter-caption mb-0 mt-3">Phone</h5>
+                                <h4 class="counter-caption mb-0 mt-3">021-3456789</h4>
+                            </div>
+                            <div class="side-border-right"></div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-2 p-lg-0">
+                        <div class="counter-box py-0 py-lg-5 text-center side-border">
+                            <div class="side-border-left"></div>
+                            <div class="py-5">
+                                <img src="<?= base_url('assets/landingpage/images/counter/idea.png'); ?>" alt="">
+                                <!-- <h2 class="counter_value fw-bold mt-2 text-primary" data-bs-target="1090">0</h2> -->
+                                <h5 class="counter-caption mb-0 mt-3">Email</h5>
+                                <h4 class="counter-caption mt-3">info@talentevent.com</h4>
+                            </div>
+                            <div class="side-border-right"></div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end counter -->
+        <!-- <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="text-center">
                         <h6 class="text-muted fw-normal">Latest on Our Blogs</h6>
@@ -526,7 +627,7 @@
                 </div>
             </div> -->
 
-            <!-- <div class="row mt-5">
+        <!-- <div class="row mt-5">
                 <div class="col-lg-4 col-md-6 mt-4 mt-2">
                     <div class="blog-image overflow-hidden">
                         <img src="<?= base_url('assets/landingpage/images/blog/img-1.jpg'); ?>" alt="" class="img-fluid w-100">
@@ -624,7 +725,7 @@
                         <p class="mt-3 f-14 ">+(540)801-468-2313 (10am - 6pm, Monday - Saturday)</p>
                         <a href="" class=" f-14">info@example.com</a>
                     </div>
-                    <div class="social-icon d-flex mt-4 mb-4 mb-lg-0">
+                    <!-- <div class="social-icon d-flex mt-4 mb-4 mb-lg-0">
                         <div class="facebook">
                             <a href=""><i class="mdi mdi-facebook-box f-30"></i></a>
                         </div>
@@ -637,9 +738,9 @@
                         <div class="twitter ms-4">
                             <a href=""><i class="mdi mdi-linkedin-box f-30"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <h5 class="text-black">Explore</h5>
                     <ul class="menu list-unstyled mt-5">
                         <li class="menu-item"><a href="">Start here</a></li>
@@ -661,7 +762,7 @@
                         <li class="info-item"><a href="">Privacy policy</a></li>
                         <li class="info-item"><a href="">Terms of service</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
