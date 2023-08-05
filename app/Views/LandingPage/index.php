@@ -87,17 +87,17 @@
         }
 
         .home {
-            background-color: #00BFFF;
+            background-color: #fff;
             /* Ganti dengan warna latar belakang yang Anda inginkan */
         }
 
         #features {
-            background-color: #00BFFF;
+            background-color: #fff;
             /* Ganti dengan warna latar belakang yang Anda inginkan */
         }
 
         #service {
-            background-color: #DCDCDC;
+            background-color: #BBD3F5;
             /* Ganti dengan warna latar belakang yang Anda inginkan */
         }
 
@@ -107,12 +107,12 @@
         }
 
         #faq {
-            background-color: #DCDCDC;
+            background-color: #BBD3F5;
             /* Ganti dengan warna latar belakang yang Anda inginkan */
         }
 
         #blog {
-            background-color: #00BFFF;
+            background-color: #BBD3F5;
             /* Ganti dengan warna latar belakang yang Anda inginkan */
         }
 
@@ -430,7 +430,7 @@
     <!-- end features -->
 
     <!-- start faq  -->
-    <section class="section" style="padding-top:0px;" id="faq">
+    <section class="section" style="padding-top:0px;padding-bottom:0px;" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
